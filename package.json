@@ -23,11 +23,7 @@
     "dockerbuild": "docker build -t bolt-ai:development -t bolt-ai:latest --target bolt-ai-development .",
     "typecheck": "tsc",
     "typegen": "wrangler types",
-    "preview": "pnpm run build && pnpm run start",
-    "prepare": "husky"
-  },
-  "engines": {
-    "node": ">=18.18.0"
+    "preview": "pnpm run build && pnpm run start"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.39",
